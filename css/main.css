@@ -47,3 +47,38 @@ table {
 //////////// CSS RESET COMPLETE \\\\\\\\\\\\\\
 ==============================================
 ============================================== */
+
+/*========= Navigation Styles ======== */
+
+.navbar {
+    border: 3px solid #FF0000;
+}
+nav .navbar-brand {
+    color: #FF0000 !important;
+    font-family:Azo Sans;
+}
+nav .navbar-nav .nav-item .nav-link {
+    color: #FF0000 !important;
+    font-family:Azo Sans;
+}
+nav .nav-link.active {
+}
+nav .navbar-nav li,
+nav .navbar-nav li a {
+    color: #FF0000;
+}
+
+nav .navbar-brand a {
+    color: #FF0000;
+}
+
+nav .dropdown-item.active {
+    background-color: #FF0000;
+}
+
+nav .dropdown-menu.show {
+    border: 2px solid #FF0000;
+}
+
+
+
