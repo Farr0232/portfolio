@@ -66,10 +66,21 @@ nav .nav-link.active {
 nav .navbar-nav li,
 nav .navbar-nav li a {
     color: #FF0000;
+	font-family: Azo Sans;
 }
 
-nav .navbar-brand a {
+nav .navbar-brand {
+	display: flex;
     color: #FF0000;
+	letter-spacing: 5px;
+	font-size: 18pt;
+}
+.navbar-light .navbar-toggler {
+	color: #FF0000;
+	border-color: #FF0000;
+}
+nav .navbar-brand span {
+	align-self: center;
 }
 
 nav .dropdown-item.active {
@@ -80,5 +91,25 @@ nav .dropdown-menu.show {
     border: 2px solid #FF0000;
 }
 
+/* ========== Homepage Styles ======= */
+.modal-title {
+	font-family: Azo sans;
+}
+/* ========== Footer Styles ========= */
 
+.footer-box {
+	border: 3px solid #FF0000;
+}
+.footer-text {
+	font-size: 12pt;
+	font-family: Azo Sans;
+	color: #FF0000;
+}
 
+a {
+	color: #FF0000;
+}
+
+a:hover {
+	color: #FF0000;
+}
