@@ -61,8 +61,7 @@ nav .navbar-nav .nav-item .nav-link {
     color: #FF0000 !important;
     font-family:Azo Sans;
 }
-nav .nav-link.active {
-}
+
 nav .navbar-nav li,
 nav .navbar-nav li a {
     color: #FF0000;
@@ -76,24 +75,20 @@ nav .navbar-brand {
 	font-size: 18pt;
 }
 .navbar-light .navbar-toggler {
-	color: #FF0000;
-	border-color: #FF0000;
+	color: #FF0000 !important;
+	border-color: #FF0000 !important;
 }
 nav .navbar-brand span {
 	align-self: center;
 }
 
 nav .dropdown-item.active {
-    background-color: #FF0000;
+    background-color: whitesmoke;
+	text-decoration: underline;
 }
 
 nav .dropdown-menu.show {
     border: 2px solid #FF0000;
-}
-
-/* ========== Homepage Styles ======= */
-.modal-title {
-	font-family: Azo sans;
 }
 /* ========== Footer Styles ========= */
 
@@ -107,9 +102,29 @@ nav .dropdown-menu.show {
 }
 
 a {
-	color: #FF0000;
+	color: #FF0000 !important;
 }
 
 a:hover {
-	color: #FF0000;
+	color: #FF0000 !important;
 }
+/* ======== Global Styles ============ */
+
+h1,
+h2,
+h3,
+h4 {
+	color: #FF0000;
+	font-family: Azo Sans;
+}
+
+/* ========== Homepage Styles ======= */
+.modal-title {
+	font-family: Azo sans;
+}
+
+
+/* ============ About Styles ========== */
+/* .client-container{
+	border: 3px solid #FF0000;
+} */
