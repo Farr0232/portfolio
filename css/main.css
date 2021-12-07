@@ -47,6 +47,26 @@ table {
 //////////// CSS RESET COMPLETE \\\\\\\\\\\\\\
 ==============================================
 ============================================== */
+/* ======== Global Styles ============ */
+
+h1,
+h2,
+h3,
+h4 {
+	color: #FF0000;
+	font-family: Azo Sans;
+}
+html {
+	height: 100%;
+}
+body {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.footer-box {
+	margin-top: auto;
+}
 
 /*========= Navigation Styles ======== */
 
@@ -108,15 +128,6 @@ a {
 a:hover {
 	color: #FF0000 !important;
 }
-/* ======== Global Styles ============ */
-
-h1,
-h2,
-h3,
-h4 {
-	color: #FF0000;
-	font-family: Azo Sans;
-}
 
 /* ========== Homepage Styles ======= */
 .modal-title {
@@ -125,6 +136,31 @@ h4 {
 
 
 /* ============ About Styles ========== */
-/* .client-container{
+.client-container{
 	border: 3px solid #FF0000;
-} */
+}
+
+/* =========== Contact Styles ========== */
+
+
+.contact {
+	border: 2px solid #FF0000;
+	font-family: Azo Sans;
+	color: #FF0000;
+
+}
+.btn {
+	color: #FF0000 !important;
+	border: 2px solid #FF0000 !important;
+	background-color: white !important;
+}
+
+.form-control {
+	border: 1px solid #FF0000 !important;
+	border-radius: 0% !important;
+}
+
+.btn:hover {
+	background-color: #FF0000 !important;
+	color: white !important;
+}
