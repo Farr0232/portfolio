@@ -56,13 +56,17 @@ h4 {
 	color: #FF0000;
 	font-family: Azo Sans;
 }
+/* ******* Sticky Footer ****** */
+
 html {
 	height: 100%;
 }
+
 body {
 	min-height: 100%;
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 }
 .footer-box {
 	margin-top: auto;
@@ -80,6 +84,7 @@ nav .navbar-brand {
 nav .navbar-nav .nav-item .nav-link {
     color: #FF0000 !important;
     font-family:Azo Sans;
+	line-height: 1;
 }
 
 nav .navbar-nav li,
