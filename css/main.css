@@ -99,6 +99,9 @@ a:hover {
 	font-family: Azo sans;
 }
 
+.pictures {
+	width: 100%;
+}
 
 /* ============ About Styles ========== */
 .client-container{
@@ -143,6 +146,10 @@ a:hover {
 	gap: 10px;
 }
 
+.pictures {
+	height: 100%;
+}
+
 }
 
 /* ===========================================
@@ -156,6 +163,15 @@ a:hover {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		gap: 10px;
+	}
+
+	.wolfdown {
+		grid-column: span 2;
+		grid-row: 2 ;
+	}
+
+	.pictures {
+		width: 100%;
 	}
 
 
