@@ -108,6 +108,13 @@ a:hover {
 	border: 3px solid #FF0000;
 }
 
+
+/* =========== Photography Styles =========== */
+.photography-grid {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	gap: 10px;
+}
 /* =========== Contact Styles ========== */
 
 
@@ -149,7 +156,24 @@ a:hover {
 .pictures {
 	height: 100%;
 }
-
+/* =========== Photography page ====== */
+.photography-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+}
+.glassyraw {
+	grid-column: span 2;
+}
+.rickymag {
+	grid-column: span 2;
+}
+.augdirt {
+	grid-column: span 2;
+}
+.blackandwhite {
+	grid-column: span 2;
+}
 }
 
 /* ===========================================
@@ -185,5 +209,35 @@ a:hover {
 .client-container {
 	grid-column: span 2;
 }
-
+/* =========== Photography page ====== */
+.photography-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+}
+.glassyraw {
+	grid-column: span 2;
+	order: start ;
+	grid-row: 1 ;
+}
+.watch {
+	grid-column: 4 ;
+	grid-row: 1 ;
+}
+.rickymag {
+	grid-column: span 2;
+	grid-row: 2;
+}
+.augdirt {
+	grid-column: span 2;
+	grid-row: 3;
+}
+.blackandwhite {
+	grid-column: span 2;
+	grid-row: 4;
+}
+.redbull {
+	grid-column: 3 ;
+	grid-row: 4;
+}
 }
