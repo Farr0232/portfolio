@@ -115,6 +115,12 @@ a:hover {
 	grid-template-columns: repeat(1, 1fr);
 	gap: 10px;
 }
+
+/* ============== Webdev Styles ============== */
+/* .webdev-container {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+} */
 /* =========== Contact Styles ========== */
 
 
@@ -159,20 +165,33 @@ a:hover {
 /* =========== Photography page ====== */
 .photography-grid {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(4, 1fr);
 	gap: 10px;
 }
 .glassyraw {
 	grid-column: span 2;
+	order: start ;
+	grid-row: 1 ;
+}
+.watch {
+	grid-column: 4 ;
+	grid-row: 1 ;
 }
 .rickymag {
 	grid-column: span 2;
+	grid-row: 2;
 }
 .augdirt {
 	grid-column: span 2;
+	grid-row: 3;
 }
 .blackandwhite {
 	grid-column: span 2;
+	grid-row: 4;
+}
+.redbull {
+	grid-column: 3 ;
+	grid-row: 4;
 }
 }
 
