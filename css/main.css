@@ -116,11 +116,14 @@ a:hover {
 	gap: 10px;
 }
 
-/* ============== Webdev Styles ============== */
-/* .webdev-container {
+/* ============== Graphic Design Styles ============== */
+
+.graphicdes-grid {
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
-} */
+	gap: 10px;
+}
+
 /* =========== Contact Styles ========== */
 
 
@@ -158,6 +161,9 @@ a:hover {
 	grid-template-columns: repeat(2, 1fr);
 	gap: 10px;
 }
+.wolfdown {
+	grid-row: 3;
+}
 
 .pictures {
 	height: 100%;
@@ -193,8 +199,24 @@ a:hover {
 	grid-column: 3 ;
 	grid-row: 4;
 }
+/* ========= Graphic Design Page ============ */
+.graphicdes-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr );
+	gap: 10px;
+}
+.getout {
+	grid-row: 1;
+}
+.dance {
+	grid-row: 2;
+}
+.river {
+	grid-row: 2;
 }
 
+}
 /* ===========================================
 				DESKTOP STYLES
 ============================================== */
@@ -204,7 +226,7 @@ a:hover {
 
 	.frontpage-grid {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(4, 1fr);
 		gap: 10px;
 	}
 
