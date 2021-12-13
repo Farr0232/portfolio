@@ -113,7 +113,9 @@ a:hover {
     font-weight: 900;
     font-style: normal;
 }
-
+.wolfdown{
+	order: 7;
+}
 .pictures {
 	width: 100%;
 }
@@ -179,7 +181,8 @@ a:hover {
 	gap: 10px;
 }
 .wolfdown {
-	grid-row: 3;
+	grid-row: 4;
+	grid-column: span 2;
 }
 
 .pictures {
@@ -219,8 +222,8 @@ a:hover {
 /* ========= Graphic Design Page ============ */
 .graphicdes-grid {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(2, 1fr );
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(3, 1fr );
 	gap: 10px;
 }
 .getout {
