@@ -60,6 +60,9 @@ nav .navbar-brand {
     color: #FF0000;
 	letter-spacing: 5px;
 	font-size: 18pt;
+	font-family: azo-sans-web, sans-serif;
+    font-weight: 900;
+    font-style: normal;
 }
 .navbar-light .navbar-toggler {
 	color: #FF0000 !important;
@@ -106,7 +109,9 @@ a:hover {
 }
 
 .modal-title {
-	font-family: Azo sans;
+	font-family: azo-sans-web, sans-serif;
+    font-weight: 900;
+    font-style: normal;
 }
 
 .pictures {
