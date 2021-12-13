@@ -6,7 +6,9 @@ h2,
 h3,
 h4 {
 	color: #FF0000;
-	font-family: Azo Sans;
+	font-family: azo-sans-web, sans-serif;
+    font-weight: 900;
+    font-style: normal;
 }
 /* ******* Sticky Footer ****** */
 
@@ -29,7 +31,9 @@ body {
 }
 nav .navbar-brand {
     color: #FF0000 !important;
-    font-family:Azo Sans;
+	font-family: azo-sans-web, sans-serif;
+    font-weight: 900;
+    font-style: normal;
 }
 .dropdown-item.active, .dropdown-item:active {
 	color: white !important;
@@ -37,14 +41,18 @@ nav .navbar-brand {
 }
 nav .navbar-nav .nav-item .nav-link {
     color: #FF0000 !important;
-    font-family:Azo Sans;
+	font-family: azo-sans-web, sans-serif;
+    font-weight: 900;
+    font-style: normal;
 	line-height: 1;
 }
 
 nav .navbar-nav li,
 nav .navbar-nav li a {
     color: #FF0000;
-	font-family: Azo Sans;
+	font-family: azo-sans-web, sans-serif;
+    font-weight: 900;
+    font-style: normal;
 }
 
 nav .navbar-brand {
@@ -75,9 +83,11 @@ nav .dropdown-menu.show {
 	border: 3px solid #FF0000;
 }
 .footer-text {
-	font-size: 12pt;
-	font-family: Azo Sans;
 	color: #FF0000;
+	font-family: azo-sans-web, sans-serif;
+	font-size: 12pt;
+    font-weight: 900;
+    font-style: normal;
 }
 
 a {
@@ -129,8 +139,10 @@ a:hover {
 
 .contact {
 	border: 2px solid #FF0000;
-	font-family: Azo Sans;
 	color: #FF0000;
+	font-family: azo-sans-web, sans-serif;
+    font-weight: 900;
+    font-style: normal;
 
 }
 .btn {
