@@ -166,6 +166,7 @@ a:hover {
 }
 
 .form-control {
+	resize: none;
 	border: 1px solid #FF0000 !important;
 	border-radius: 0% !important;
 }
