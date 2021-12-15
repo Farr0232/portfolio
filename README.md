@@ -8,8 +8,11 @@
 ===================================================
 <h2> Resources and Libraries </h2>
 <ul>
-<li>Bootstrap 5<a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/"></a></li>
-<li>Adobe Fonts<a href="https://fonts.adobe.com/"></a></li>
-<li>CodePen<a href="https://codepen.io/sarath-ar/pen/dMKxxM"></a>
-</li>
+<li>Bootstrap 5</li>
+<li>Adobe Fonts</li>
+<li>CodePen</li>
+</ul>
+<a href="https://codepen.io/sarath-ar/pen/dMKxxM">CodePen Animation Link</a>
+<a href="https://fonts.adobe.com/">Adobe Font Link</a>
+<a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/">Bootstrap 5 Link</a>
 
